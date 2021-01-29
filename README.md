@@ -1,5 +1,6 @@
 ---
 https://docs.microsoft.com/nl-nl/azure/cosmos-db/sql-api-get-started
+https://github.com/Azure-Samples/cosmos-dotnet-getting-started
 languages:
 - csharp
 products:
