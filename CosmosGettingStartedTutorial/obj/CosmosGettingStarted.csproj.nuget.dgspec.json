@@ -1,0 +1,66 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/osx/Projects/scratch/virtual-insanity/cosmos-dotnet-getting-started/CosmosGettingStartedTutorial/CosmosGettingStarted.csproj": {}
+  },
+  "projects": {
+    "/Users/osx/Projects/scratch/virtual-insanity/cosmos-dotnet-getting-started/CosmosGettingStartedTutorial/CosmosGettingStarted.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/osx/Projects/scratch/virtual-insanity/cosmos-dotnet-getting-started/CosmosGettingStartedTutorial/CosmosGettingStarted.csproj",
+        "projectName": "CosmosGettingStarted",
+        "projectPath": "/Users/osx/Projects/scratch/virtual-insanity/cosmos-dotnet-getting-started/CosmosGettingStartedTutorial/CosmosGettingStarted.csproj",
+        "packagesPath": "/Users/osx/.nuget/packages/",
+        "outputPath": "/Users/osx/Projects/scratch/virtual-insanity/cosmos-dotnet-getting-started/CosmosGettingStartedTutorial/obj/",
+        "projectStyle": "PackageReference",
+        "crossTargeting": true,
+        "configFilePaths": [
+          "/Users/osx/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "Microsoft.Azure.Cosmos": {
+              "target": "Package",
+              "version": "[3.5.1, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.405/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
